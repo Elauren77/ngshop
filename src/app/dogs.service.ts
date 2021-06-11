@@ -4,7 +4,7 @@ import {Observable, of } from 'rxjs';
 import { Dog} from './dog';
 
 @Injectable({
-  providedIn: 'root'
+  providedIn: 'root' 
 })
 export class DogsService implements OnInit {
   private dogData = DOGS;

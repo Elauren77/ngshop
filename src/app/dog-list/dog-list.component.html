@@ -3,6 +3,8 @@
 <div>
 <div *ngFor= "let dog of dogs">
     {{ dog.name }}
-   <img src=" {{ dog.thumbnail }}">
+    {{dog.thumbnail}}
+   <img width="50%" alt="dog gif" [src]="dog.thumbnail"> 
 </div>
 </div>
+<!-- <img width="600" alt="Gnarly Bull Dog" src="../assets/images/gnarly-bully.jpg"> -->
